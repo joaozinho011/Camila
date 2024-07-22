@@ -7,6 +7,19 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+    max-width: 100%;
+    padding: 0 20px; /* Exemplo de margens laterais para conter a largura da imagem */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços em branco abaixo da imagem */
+}
+
+
 .layout_padding {
   padding: 90px 0;
 }
